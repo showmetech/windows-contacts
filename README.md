@@ -1,7 +1,11 @@
 # Windows Contacts
 
-Documentação de suporte do aplicativo pessoal Windows Contacts 1.0.4: apresentação, privacidade e condições técnicas de uso.
+Documentação do aplicativo pessoal Windows Contacts 1.0.4.
 
-Os cinco arquivos da documentação estão em `docs/`. Este repositório não contém agendas, credenciais, backups, instaladores ou código do aplicativo.
+- [Apresentação](https://showmetech.github.io/windows-contacts/)
+- [Política de privacidade](https://showmetech.github.io/windows-contacts/privacy.html)
+- [Termos de uso](https://showmetech.github.io/windows-contacts/terms.html)
 
-As páginas estão preparadas para revisão. A publicação no GitHub Pages e a alteração do status OAuth dependem de aprovação e validação separadas.
+Este repositório público contém apenas a documentação em `docs/` e o ícone. Não contém agendas, credenciais, backups, instaladores ou código do aplicativo.
+
+O aplicativo é independente, sem vínculo oficial com Google ou Microsoft. A publicação da documentação não equivale à verificação OAuth pelo Google.
