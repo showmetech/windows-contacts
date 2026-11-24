@@ -4,20 +4,19 @@ Documentação pública do SMT Contacts, anteriormente Windows Contacts, da Show
 
 - [Apresentação](https://windows-contacts.showmetech.com.br/)
 - [Privacidade](https://windows-contacts.showmetech.com.br/privacy.html)
-- [Termos de uso](https://windows-contacts.showmetech.com.br/terms.html)
+- [Termos](https://windows-contacts.showmetech.com.br/terms.html)
 - Suporte: comercial@showmetech.com.br
+
+## Funcionamento
+
+Widget Windows com quatro colunas, busca, fotos circulares, favoritos e até duas contas Google escolhidas pelo usuário. As configurações e a revisão de duplicados permanecem abertas ao trocar de aplicativo. O widget recolhe ao clicar fora.
+
+A consulta usa leitura. A função opcional Entre contas exige consentimento e permissão de edição em cada conta. Na versão local 1.5.5 e posteriores, resultados explicitamente aprovados podem aplicar nome, campos selecionados e foto às origens, com backup e releitura. A versão 1.5.6 corrige a exibição do resultado após editar. Notas e endereços são preservados; fichas não são criadas nem excluídas. Conflitos, limites de campos e respostas incertas exigem revisão. Veja o funcionamento completo na política de privacidade.
+
+Outlook/iCloud depende do perfil do Outlook clássico; confirmação local não prova propagação à nuvem. VCF é importação manual. Não há login direto Samsung, Apple ou Microsoft nessa versão.
 
 ## Distribuição
 
-A publicação na Microsoft Store está em preparação. O produto reservado é **9NB7JF7JDZ06**; o [link reservado da Store](https://apps.microsoft.com/detail/9NB7JF7JDZ06) só permitirá obter o aplicativo depois da aprovação e publicação. Não há release ou instalador público neste repositório.
+A distribuição pública está em preparação. O produto reservado na Microsoft Store é 9NB7JF7JDZ06. O [link reservado](https://apps.microsoft.com/detail/9NB7JF7JDZ06) depende de aprovação e publicação. Esta documentação não comprova disponibilidade do app, certificação ou aprovação pública Google do escopo de edição.
 
-O aplicativo recolhe o widget e suas configurações ao trocar de aplicativo ou clicar fora. As configurações usam a altura disponível na área de trabalho, sem barra de rolagem. O login mantém o prazo de 15 minutos para concluir o consentimento do Google.
-
-O aplicativo permite conectar até duas contas Google escolhidas pelo usuário, somente para leitura. Não inclui contas pré-conectadas. Os requisitos planejados são Windows 10 22H2 e Windows 11, com pacotes x64, x86 e ARM64; isso não representa certificação ou teste em todas as máquinas. Verificação OAuth e testes do pacote MSIX continuam pendentes.
-
-Este repositório contém apenas documentação em docs/ e o ícone. Não contém agendas, tokens, credenciais pessoais, backups, instaladores ou código do aplicativo. A conta do desenvolvedor e seus dados locais não são distribuídos.
-
-Produto independente de Google e Microsoft. Publicar documentação não equivale à aprovação OAuth ou à disponibilidade na Store.
-
-O aplicativo recupera falhas temporárias de sincronização com tentativas limitadas e espera progressiva, respeita Retry-After e mantém diagnóstico local por conta sem dados pessoais. O cache anterior é preservado em falhas. A verificação pública do acesso Google continua pendente.
-
+Este repositório contém apenas documentação e ícone. Não contém código, instaladores, agendas, fotos de contatos, credenciais, tokens, backups ou contas pré-conectadas. O produto é independente de Google e Microsoft. Compatibilidade final depende dos testes e da distribuição; não se afirma funcionamento em todas as máquinas.
