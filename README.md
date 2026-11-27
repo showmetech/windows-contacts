@@ -11,9 +11,13 @@ Documentação pública do SMT Contacts, anteriormente Windows Contacts, da Show
 
 Widget Windows com quatro colunas, busca, fotos circulares, favoritos e até duas contas Google escolhidas pelo usuário. As configurações e a revisão de duplicados permanecem abertas ao trocar de aplicativo. O widget recolhe ao clicar fora.
 
-A consulta usa leitura. A função opcional Entre contas exige consentimento e permissão de edição em cada conta. Na versão local 1.5.5 e posteriores, resultados explicitamente aprovados podem aplicar nome, campos selecionados e foto às origens, com backup e releitura. A versão 1.5.6 corrige a exibição do resultado após editar. Notas e endereços são preservados; fichas não são criadas nem excluídas. Conflitos, limites de campos e respostas incertas exigem revisão. Veja o funcionamento completo na política de privacidade.
+A consulta usa leitura. A função opcional Entre contas exige consentimento e permissão de edição em cada conta. Na versão local 1.5.5 e posteriores, resultados explicitamente aprovados podem aplicar nome, campos selecionados e foto às origens, com backup e releitura. A versão local 1.6.2 reúne a interface Fluent, revisão lado a lado, edição do contato final antes de concluir, telefones móveis separados dos demais e diálogos que acompanham o tema. Corrige a abertura de recursos opcionais em PCs sem Outlook clássico. Notas e endereços são preservados; fichas não são criadas nem excluídas. Conflitos, limites de campos e respostas incertas exigem revisão. Veja o funcionamento completo na política de privacidade.
 
 Outlook/iCloud depende do perfil do Outlook clássico; confirmação local não prova propagação à nuvem. VCF é importação manual. Não há login direto Samsung, Apple ou Microsoft nessa versão.
+
+## Validação da versão 1.6.2
+
+Os executáveis finais passaram por 256 verificações em x64 e 256 em x86, com dados fictícios. Os três pacotes MSIX foram gerados e auditados sem dados pessoais detectados. ARM64 foi compilado, sem execução em máquina ARM. O teste de instalação MSIX em ambiente limpo e a certificação desta versão ainda estão pendentes. Esses resultados não equivalem a compatibilidade universal nem aprovação da Store.
 
 ## Distribuição
 
